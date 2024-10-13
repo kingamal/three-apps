@@ -27,9 +27,9 @@ To jest projekt stworzony w Vue 3, który zawiera trzy aplikacje:
 
 1. Sklonuj repozytorium na swój komputer:
 
-   ```bash
-   git clone https://github.com/kingamal/three-apps.git
-   ```
+```
+git clone https://github.com/kingamal/three-apps.git
+```
 
 2. Przejdź do katalogu projektu:
 
