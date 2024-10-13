@@ -8,6 +8,7 @@
       <RouterLink class="header__nav__link" to="/pesel">
         PESEL Validation
       </RouterLink>
+      <RouterLink class="header__nav__link" to="/api"> API </RouterLink>
     </nav>
   </header>
 </template>

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import ShuffleText from '../views/ShuffleText.vue'
 import PeselValidation from '../views/PeselValidation.vue'
+import API from '../views/API.vue'
 
 const routes = [
   {
@@ -8,10 +9,15 @@ const routes = [
     name: 'ShuffleText',
     component: ShuffleText
     },
-      {
+  {
     path: '/pesel',
     name: 'PeselValidation',
     component: PeselValidation
+  },
+  {
+    path: '/api',
+    name: 'API',
+    component: API
   },
 ]
 
