@@ -1,7 +1,6 @@
 <template>
   <header class="header">
     <nav class="header__nav">
-      <RouterLink class="header__nav__link" to="/"> Home </RouterLink>
       <RouterLink class="header__nav__link" to="/shuffle-text">
         Shuffle Text
       </RouterLink>
