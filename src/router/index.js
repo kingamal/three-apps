@@ -1,16 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import ShuffleText from '../views/ShuffleText.vue'
+import PeselValidation from '../views/PeselValidation.vue'
 
 const routes = [
-//   {
-//     path: '/',
-//     name: 'Home',
-//     component: App
-//   },
   {
     path: '/shuffle-text',
     name: 'ShuffleText',
     component: ShuffleText
+    },
+      {
+    path: '/pesel',
+    name: 'PeselValidation',
+    component: PeselValidation
   },
 ]
 

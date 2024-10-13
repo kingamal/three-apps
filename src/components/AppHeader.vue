@@ -5,6 +5,9 @@
       <RouterLink class="header__nav__link" to="/shuffle-text">
         Shuffle Text
       </RouterLink>
+      <RouterLink class="header__nav__link" to="/pesel">
+        PESEL Validation
+      </RouterLink>
     </nav>
   </header>
 </template>
