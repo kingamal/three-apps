@@ -23,8 +23,8 @@ export default {
   },
   methods: {
     onFileChange(event) {
-      this.shuffledText = null;
       this.file = event.target.files[0];
+      this.shuffledText = null;
     },
     handleFileUpload() {
       if (!this.file) return;
