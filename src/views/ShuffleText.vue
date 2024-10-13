@@ -1,6 +1,6 @@
 <template>
   <div class="shuffle-text">
-    <h1>Shuffle Text</h1>
+    <h1>Tasowanie tekstu</h1>
     <form @submit.prevent="handleFileUpload">
       <input type="file" @change="onFileChange" accept=".txt" />
       <button type="submit">Zobacz co wyjdzie</button>
